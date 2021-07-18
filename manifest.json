@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "timezone",
+    "version": "2.0.1",
+    "description": "this extension shows ur timezone",
+    "icons": {
+        "128": "clock.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "clock.png",
+        "default_title": "timezone"
+    },
+    "permissions": ["activeTab"],
+    "background": {
+        "script": ["main.js"]
+    }
+}
